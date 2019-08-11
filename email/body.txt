@@ -1,0 +1,9 @@
+Hello ${member1Name} & ${member2Name}!
+
+Glad to have you back from a refreshing Summer Break.
+We would like to congratulate your successful participation in the Annual Competitive Programming Event - Code Apocalypse 4.0, held on 17th April to 19th April 2019, at Lovely Professional University. Even if you tried your hand at this we hope that you have met new people, enjoyed and learned along the way from this competition. Hope to see you next time again!
+
+
+Regards, Team CYPHER
+
+click here to download your certificate: ${certificateUrl}
