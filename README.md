@@ -12,8 +12,12 @@ $ chmod 755 ./entrypoint.sh
 $ ./entrypoint.sh
 ```
 
-I've used `[Leiningen]("https://leiningen.org/")` to generate server project.
+I've used [`Leiningen`]("https://leiningen.org/") to generate server project.
 The certificates are stored in heroku's clojure based postgres database in a hash table.
+
+```bash
+$ lein new app server
+```
 
 ## Project Structure
 - `builds` folder contain the compiled certificates.
