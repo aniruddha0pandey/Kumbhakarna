@@ -4,12 +4,15 @@ I've used Adobe [Photoshop]("https://www.photoshop.com/") and [Extendscript Tool
 
 I've used [Google Apps Script]("https://script.google.com") to send emails using the `sendEmails.gs` script, which used the GMail, Sheets and Drive API.
 
+I've used the `=PROPER()` function on names column to obtain proper casing for names in Google Spreadsheets.
+
 All configurations and keys are saved in the `.env` file in root directory, thus in `.gitignore`. Use the below command to generate `credentials.gs` file from `.env` file. Tried to use Twelve-Factor App methodology as far as possible.
 ```bash
 $ chmod 755 ./entrypoint.sh
 $ ./entrypoint.sh
 ```
 
+I've used `[Leiningen]("https://leiningen.org/")` to generate server project.
 The certificates are stored in heroku's clojure based postgres database in a hash table.
 
 ## Project Structure

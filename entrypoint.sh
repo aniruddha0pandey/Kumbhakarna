@@ -1,4 +1,4 @@
 #!/bin/sh
 set -a; source './.env'; set +a
-envsubst < './credentials.gs' > './credentials.tmp.gs' && mv './credentials.tmp.gs' './credentials.gs'
+envsubst < './gscripts/credentials.gs' > './gscripts/credentials.tmp.gs' && mv './gscripts/credentials.tmp.gs' './gscripts/credentials.gs'
 
