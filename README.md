@@ -16,12 +16,12 @@ I've used [`Leiningen`]("https://leiningen.org/") to generate server project.
 The certificates are stored in heroku's clojure based postgres database in a hash table.
 
 ```bash
-$ lein new app server
+$ lein new app backend
 ```
 
 ## Project Structure
 - `builds` folder contain the compiled certificates.
 - `psd` contains the photoshop files.
 - `emails` contains the email related files.
-- `server` contains the clojure server.
+- `backend` contains the clojure server.
 
