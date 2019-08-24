@@ -1,4 +1,4 @@
-*/builds/*
-*/psd/*
-*/data/*
+builds/
+psd/
+data/
 .env
