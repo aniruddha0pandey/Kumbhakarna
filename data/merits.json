@@ -1,0 +1,87 @@
+[
+   {
+      "index":1,
+      "name":"Phoenix",
+      "email":"mssg346@gmail.com",
+      "phone":8283867773,
+      "member1":[
+         "Madhusudan Singh",
+         11612945
+      ],
+      "member2":[
+         "",
+         ""
+      ]
+   },
+   {
+      "index":2,
+      "name":"fibonacci1234",
+      "email":"snjumaheshwari@gmail.com",
+      "phone":8847472124,
+      "member1":[
+         "Sanjay Gandhi",
+         11604331
+      ],
+      "member2":[
+         "Aditya Kumar",
+         11603774
+      ]
+   },
+   {
+      "index":3,
+      "name":"CodReXX",
+      "email":"rfactor78@gmail.com",
+      "phone":7986873069,
+      "member1":[
+         "Rishabh Saxena",
+         11601878
+      ],
+      "member2":[
+         "Mayank Sharma",
+         11617271
+      ]
+   },
+   {
+      "index":4,
+      "name":"DBZ CODERS",
+      "email":"ankit11708059@gmail.com",
+      "phone":9110975470,
+      "member1":[
+         "Ankit Sharma",
+         11708059
+      ],
+      "member2":[
+         "Ashutosh",
+         11704947
+      ]
+   },
+   {
+      "index":5,
+      "name":"ABCD",
+      "email":"mayankbist45@gmail.com",
+      "phone":9660278877,
+      "member1":[
+         "Mayank Bist",
+         11814526
+      ],
+      "member2":[
+         "",
+         ""
+      ]
+   },
+   {
+      "index":6,
+      "name":"LEO",
+      "email":"1998sangeetasharma@gmail.com",
+      "phone":9876020345,
+      "member1":[
+         "Sangeeta Sharma",
+         11612200
+      ],
+      "member2":[
+         "Shalini Thebaria",
+         11606403
+      ]
+   }
+]
+
