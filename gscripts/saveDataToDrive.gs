@@ -1,9 +1,12 @@
-function saveDataToDrive(values) {
+function saveDataToDrive(values, driveId) {
   var database = [];
+  var srno = 0;
   if (!values) Logger.log("Error");
   else {
     for ( var i = 1; i < values.length; ++i ) {
+      if (values[i][2] === "") continue;
       database.push({
+          srno: ++srno,
           name: values[i][1],
           email: values[i][2],
           phone: values[i][3],
@@ -14,5 +17,5 @@ function saveDataToDrive(values) {
   }
   
   var folder = DriveApp.getFolderById(driveId);
-  folder.createFile("details.json", JSON.stringify(database)); 
+  folder.createFile("participants.json", JSON.stringify(database)); 
 }

@@ -4,6 +4,7 @@
             [compojure.route :as route]
             [clojure.java.io :as io]
             [ring.adapter.jetty :as jetty]
+            [clojure.java.jdbc :as db]
             [environ.core :refer [env]]))
 
 (defn splash []
@@ -12,10 +13,15 @@
    :body "Hello from Heroku"})
 
 (defroutes app
-  (GET "/" []
-       (splash))
-  (ANY "*" []
-       (route/not-found (slurp (io/resource "404.html")))))
+(GET "/downloads" {{input :input} :params}
+      (record input)
+      {:status 200
+      :headers {"Content-Type" "text/plain"}
+      :body (kebab/->CamelCase input)})
+(GET "/" []
+      (splash))
+(ANY "*" []
+      (route/not-found (slurp (io/resource "404.html")))))
 
 (defn -main [& [port]]
   (let [port (Integer. (or port (env :port) 5000))]

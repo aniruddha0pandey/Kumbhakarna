@@ -1,4 +1,4 @@
-function main() {
+function main(spreadsheetId) {
   var sheetName = "Form Responses 1";
   var sheet = SpreadsheetApp.openById(spreadsheetId).getSheetByName(sheetName);
   var values = sheet.getDataRange().getValues();

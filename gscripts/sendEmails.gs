@@ -1,4 +1,4 @@
-function sendEmails(values, sheet) {
+function sendEmails(sheet, values, emailFolderId) {
   var subject = "CYPHER LPU :: Code Apocalypse 4.0 Certificate";
   
   var folder = DriveApp.getFolderById(emailFolderId);
