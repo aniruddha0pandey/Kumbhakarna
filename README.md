@@ -1,6 +1,6 @@
 # Kumbhakarna
 
-I've used Adobe [Photoshop]("https://www.photoshop.com/") and [Extendscript Toolkit CC]("https://helpx.adobe.com/download-install/kb/creative-cloud-apps-download.html") to programmatically generate certificates from `participants.json` & `merits.json` which was generated from `saveDataToDrive.gs`. Always remember to select the target application, Adobe Photoshop CC 2019 in my case.
+This application is built for the “Code Apocalypse 4.0” Competition. I've used Adobe [Photoshop]("https://www.photoshop.com/") and [Extendscript Toolkit CC]("https://helpx.adobe.com/download-install/kb/creative-cloud-apps-download.html") to programmatically generate certificates from `participants.json` & `merits.json` which was generated from `saveDataToDrive.gs`. Always remember to select the target application, Adobe Photoshop CC 2019 in my case.
 
 Since JSON is not supported in Extendscript I used this pollyfill:
 ```js
